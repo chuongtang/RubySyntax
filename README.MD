@@ -1,4 +1,4 @@
-# Capture all basic syntax when leaning Ruby 
+# Capture all basic syntax when leaning Ruby 💎
 
 ## Common modes in I/O port
 * "r": read-only mode is the default mode starts at beginning of file.
