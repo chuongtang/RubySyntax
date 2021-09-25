@@ -1,0 +1,34 @@
+QQQQ How to Read File in Ruby Using Various Methods QQQQ
+There are many ways to read any file system in Ruby using various methods available in Ruby. Let us discuss the methods with some examples.
+
+>>>> 1. Using New Keyword
+In the below example we are opening a file with the help of the keyword call new. In new we are opening the file with the read mode like File.new(“file path along with the file name”,”r”).
+
+First, we created a file with the name txt and added some contents to the file.
+We used new with two arguments to it, in the first argument we are passing the name and the path of the file which we are going to read and the second the mode by which we are opening the file (here in this example we are opening the file in the read(r) mode).
+The next code is an if statement that we are checking if the file is empty to avoid useless code flow for empty contents.
+Finally with the help of method spread with taking 20 as the length of the words.
+In the output, it is printing the 20 characters from the file.
+
+>>>> 2. Using the Keyword Open and Read
+In the below example we are using a simple open keyword to read file contents. We can explain the below code in the following steps.
+
+First, we have written File. open, here File is a subclass that contains all file related activity.
+Next, we have written the open on File, here open will take file path as the argument .remember here i have passed the file name directly because of the file test.txt and file.rb both are on the same location. In case if the file is located on other location then we can pass the full path for the file.
+After opening the file we are using the read method on the output of the result of the open.
+Finally, we put the result coming from the readData.read, which is the content of the file.
+
+>>>> 3. Using Read Keyword to Split Files
+In the below example we are using a split keyword to read file contents. We can explain the below code in the following steps.
+First, we have written File. read, here File is a subclass that contains all file-related activity.
+Next, we have written the split as the chain form on the output of the command File.read as the File.read.split.
+Here File.read will take the file path as the argument. Remember here I have passed the file name directly because of the file test.txt and file.rb both are in the same location. In case if a file is located in another location then we can pass the full path for the file.
+The split method will split each word of the sentence and read line by line.
+You can see the output of the result, where each word is displayed as the output from the sentence.
+>>>> 4. Using Read Lines for Reading File
+Here we are writing a simple code to print each line of the file because in the below example we have taken only one line of the sentence so that the first line has been printed.
+>>>> 5. Using IO for Looping Over File to Read
+In this example, we are simply performing the looping on the test.txt contents line by line. The goal of the program is to print the file contents, here contents are of multiple lines. In the below example we have taken two lines, We can explain the below example in the following steps.
+
+The file test.txt contains two lines of contents.
+We have written a block statement to print the code line by line.each time content variable inside the block contains each line of the sentence.
