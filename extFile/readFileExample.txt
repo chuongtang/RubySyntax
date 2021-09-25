@@ -1,0 +1,6 @@
+Adam, Sales
+Bruce, Marketing
+Charlie, Legal
+Dell, IT
+Eva, Product
+Frank, Accounting
