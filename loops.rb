@@ -11,7 +11,6 @@ end
 friends = ["Adam", "Bob", "Charlie", "Dell", "Frank"]
 for friend in friends do
   puts(friend)
-
 end
 
 # array.each so |var|

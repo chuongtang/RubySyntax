@@ -6,7 +6,7 @@
 `File.open method` : Using this method a new file object is created. That file object is assigned to a file.
 Difference between both the methods is that `File.open` method can be associated with a block while `File.new` method can't.
 
-#### Example"
+#### Example
 
 `f = File.new("fileName.rb")`
 
@@ -23,7 +23,7 @@ Or,
 - "a": write-only mode, if file exists it will append the file othrwise a new file will be created for writing only.
 - "a+": read and write mode, if file exists it will append the file othrwise a new file will be created for writing and reading.
 
-## reading a file
+## Read a file
 
 #### There are three different methods to read a file.
 
@@ -59,3 +59,23 @@ File.rename("olderName.txt", "newName.txt")
 ```
 File.delete("filename.txt")
 ```
+
+## Error handling
+
+All exceptions and errors are extensions of the `Exception` class.
+
+### The "begin - rescue"
+
+`begin-rescue` block is similar to `try..catch` in JS
+
+```
+begin
+  # code may cause error
+rescue => e
+  # catch error and store it in variable "e"
+end
+```
+
+## Module
+
+A Module is a collection of methods, constants, and class variables. Modules are defined as a class, but with the `module` keyword not with _class_ keyword.
